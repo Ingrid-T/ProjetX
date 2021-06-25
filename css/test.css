@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Josefin+Sans:wght@100&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Josefin Sans', sans-serif;
+	
+}
+
+body {
+	background-image: linear-gradient(to left, #ffe838, #fd57bf)
+}
+
+.titre-quiz{
+	text-align: center;
+	color: white;
+	padding: 50px;
+	font-size: 40px;
+}
+
+.cadre-quiz{
+	background-color: white;
+	max-width: 500px;
+	margin: 40px auto;
+	padding: 30px;
+	border-radius: 10px;
+}
+
+.reponse{
+	background-color: #cccccc;
+	padding: 15px;
+	line-height: 22px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+.reponse:hover{
+	background-color: grey;
+}
+
+.question-number{
+	color: hotpink;
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 20px;
+	border-bottom: 2px solid #cccccc;
+	padding-bottom: 10px;
+	line-height: 25px;
+}
+
+.question-quiz{
+	font-size: 22px;
+	margin-bottom: 15px;
+	line-height: 28px;
+}
+
+.score{
+	margin-top: 15px;
+}
+
+.next-question{
+	margin-top: 15px;
+}
+
+.suivant{
+	padding: 15px 20px;
+	background-color: hotpink;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	margin-top: 20px;
+}
+
+.parcours-quiz{
+	border-top: 2px solid #cccccc;
+	line-height: 25px;
+	margin-top: 20px;
+}
+
+.parcours-quiz div{
+	height: 10px;
+	width: 10px;
+	display: inline-block;
+	background-color: #cccccc;
+	border-radius: 50%;
+}

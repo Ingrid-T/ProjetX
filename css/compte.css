@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Josefin+Sans:wght@100&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Josefin Sans', sans-serif;
+	
+}
+
+body {
+	background-image: linear-gradient(to left, #ffe838, #fd57bf)
+}
+
+.titre-compte{
+	text-align: center;
+	color: white;
+	padding: 50px;
+	font-size: 40px;
+}
+
+.compte-user input { 
+	width: 30%;
+	height: 20px;
+	margin-bottom: 15px;
+	border: none;
+	border-bottom: 2px solid #cccccc;
+}
+
+.compte-user{
+	background-color: white;
+	padding: 40px;
+	margin: 50px;
+	border-radius: 10px;
+
+}
+
+.compte-user label{
+	display: block;
+}
+
+.preferences{
+	display: inline-block;
+}
+
+.titre-preferences{
+	margin-bottom: 15px;
+}
+
+.preferences input {
+	height: 15px;
+}
+
+
+.maj-user, .valid-user {
+	padding: 15px 20px;
+	background-color: hotpink;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	margin-top: 20px;
+}
+
+.titre-compte{
+	text-align: center;
+	color: white;
+}

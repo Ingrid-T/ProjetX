@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Josefin+Sans:wght@100&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Josefin Sans', sans-serif;
+	
+}
+
+body {
+	background-image: linear-gradient(to left, #ffe838, #fd57bf)
+}
+
+.titre-profil{
+	color: hotpink;
+	text-align: center;
+	padding: 30px;
+	font-size: 50px;
+}
+
+.cadre-profil{
+	background-color: white;
+	max-width: 500px;
+	margin: 40px auto;
+	padding: 30px;
+	border-radius: 10px;
+}

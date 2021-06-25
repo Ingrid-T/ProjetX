@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Josefin+Sans:wght@100&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Josefin Sans', sans-serif;
+	
+}
+
+body{
+	 background-image: linear-gradient(to left, #ffe838, #fd57bf);
+}
+
+.navbar{
+	width: 100%;
+	height: 65px;
+	display: flex;
+	justify-content: space-around;	
+	margin: 20px;
+}
+
+.navbar .onglets ul{
+	display: flex;
+}
+
+.navbar .onglets ul li{
+	text-transform: uppercase;
+	margin: 0 10px;
+}
+
+.navbar .onglets ul li a{
+	color: white;
+}
+
+.onglets ul li a:hover{
+	color: black;
+}
+
+.logo{
+	font-family: 'Allura', cursive;
+	font-size: 45px;
+	color: white;
+
+}
+
+.index-autoslide img {
+	width: 400px;
+	height: 500px;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: 50px;
+}
+
+.titre-index{
+	margin-bottom: 20px;
+	color: white;
+	font-size: 35px;
+}
+
+.nous, .contact{
+	padding: 5% 10%;
+}
+
+.titre-index{
+	margin-bottom: 20px;
+}
+
+.contact{
+	border-radius: 10px;
+	background-color: white;
+	margin: 0px 250px 0px 250px;
+	text-align: center;
+}
+
+#contact{
+	color: hotpink;
+}
+
+.contact .champ-index{
+	margin-bottom: 10px;
+}
+
+.contact .champ-index input[type="text"]{
+	width: 250px;
+	padding: 12px 20px;
+	height: 20px;
+	border: 2px solid #ccc;
+}
+
+.contact .champ-index textarea{
+	width: 250px;
+	padding: 12px 20px;
+	height: 100px;
+	resize: none;
+	border: 2px solid #ccc;
+}
+
+.envoi{
+	padding: 15px 20px;
+	background-color: hotpink;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	margin-top: 20px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Mon compte</title>
+	<link rel="stylesheet" type="text/css" href="css/compte.css">
+</head>
+<body>
+	<h1 class="titre-compte">Mon compte</h1>
+	<form class="compte-user" action="#" method="post">
+		<label>Nom</label>
+		<input type="text" name="nom" placeholder="Entrez votre nom..." required>
+		<label>Prénom</label>
+		<input type="text" name="prenom" placeholder="Entrez votre prénom..." required>
+		<label>Année de naissance</label>
+		<input type="text" name="naissance" placeholder="Entrez votre année de naissance..." required>
+		
+		<p class="titre-preferences">Préférences:</p>
+
+		<div class="preferences">
+		<label>Classique</label>
+		<input type="checkbox" name="preferences" required>
+		<label>Sophistiqué</label>
+		<input type="checkbox" name="preferences" required>
+		<label>Rock</label>
+		<input type="checkbox" name="preferences" required>
+		<label>Pin-up</label>
+		<input type="checkbox" name="preferences" required>
+		<label>Décontracté</label>
+		<input type="checkbox" name="preferences" required>
+		<label>Fashion</label>
+		<input type="checkbox" name="preferences" required>
+		<label>Sportswear</label>
+		<input type="checkbox" name="preferences" required>
+		</div>
+		
+		<p><button type="submit" class="maj-user">Mettre à jour mes informations</button></p>
+		<p><button type="submit" class="valid-user">Valider</button></p>
+	</form>
+</body>
+</html>

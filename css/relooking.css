@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Josefin+Sans:wght@100&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Josefin Sans', sans-serif;
+	
+}
+
+body{
+	background-image: linear-gradient(to left, #ffe838, #fd57bf)
+}
+
+.titre-relooking{
+	text-align: center;
+	color: white;
+	padding: 50px;
+	font-size: 40px;
+}
+
+.cercle {
+	border: none;
+	border-radius: 10px;
+	margin: 50px;
+	padding: 20px;
+	background-color: white;
+}
+
+.formule{
+	margin-bottom: 10px;
+	color: hotpink;
+	
+}
+
+.details-formule{
+	padding: 15px 20px;
+	background-color: hotpink;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	margin-top: 20px;
+}
